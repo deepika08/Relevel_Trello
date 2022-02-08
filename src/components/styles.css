@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex:1;
+    
+    flex-direction: column;
+}
+
+.appTitleContainer{
+    padding: 10px;
+    background-color: #606469;
+}
+
+
+.logoImage{
+    width: 70px;
+    height: 70px;
+    resize: both;
+}
+
+.appTitleText{
+    color: wheat;
+    font-size: 25px;
+    padding: 10px;
+    align-self: center;
+}
+.cardContainer{
+    display: fles;
+    margin-top: 40px;
+
+}
+
+.cardBox{
+    background-color: #ffe4c4;
+    align-self: center;
+    width: 15pc;
+    height: 100px;
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+
+}
+
+.cardTitle{
+    font-weight: bold;
+
+}
+.descriptionText{
+    color: black;
+}
